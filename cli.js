@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 
+import moment from 'moment-timezone'
 import fetch from 'node-fetch';
 import minimist from 'minimist'
-import moment from 'moment-timezone'
 
 
 var args = minimist(process.argv.slice(2));
